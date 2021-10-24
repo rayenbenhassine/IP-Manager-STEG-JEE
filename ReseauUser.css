@@ -1,0 +1,88 @@
+*
+{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+#reseau
+{
+    position: relative;
+    top: 100px;
+    left: 19%;
+    background:white;
+    padding:20px;
+    width:78%;
+}
+table
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+td
+{
+	text-align: center;
+	padding: 12px;
+}
+tr:nth-child(2n+1):not(:first-child)
+{
+	background-color:#C9DDF3;
+
+}
+tr:nth-child(2n)
+{
+	background-color:#F8FBFF;
+}
+th
+{
+	padding: 12px;
+	background-color: #E32020;
+	color: white;
+}
+
+button:hover
+{
+    cursor:pointer;
+}
+input
+{
+    width: 300px;
+    padding: 10px;
+    margin:5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+input[type="submit"]:hover
+{
+    cursor: pointer;
+}
+
+.searchbtn
+{
+    background:  url("../images/searchicon.png") no-repeat ;
+    background-size: contain;
+    width:40px;
+    border:none;
+}
+select
+{
+    width: 190px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 20px 0px;
+    margin-bottom: 0px;
+}
+.form-search
+{
+    float: left;
+    width:63%;
+}
+
+
+.inforeseau
+{
+    padding: 20px;
+}
+

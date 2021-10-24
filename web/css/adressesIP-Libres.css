@@ -1,0 +1,68 @@
+*
+{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+#liste-ip-libres
+{
+    position: relative;
+    top: 100px;
+    left: 19%;
+    background:white;
+    padding:20px;
+    width:78%;
+}
+input
+{
+    width: 300px;
+    padding: 10px;
+    margin:5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+input[type="submit"]:hover
+{
+    cursor: pointer;
+}
+table
+{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+td
+{
+	text-align: center;
+	padding: 12px;
+}
+tr:nth-child(2n+1):not(:first-child)
+{
+	background-color:#C9DDF3;
+
+}
+tr:nth-child(2n)
+{
+	background-color:#F8FBFF;
+}
+th
+{
+	padding: 12px;
+	background-color: #E32020;
+	color: white;
+}
+table button
+{
+    border:none;
+    background: none;
+    text-decoration: underline;
+    color:blue;
+}
+button:hover
+{
+    cursor:pointer;
+}
+
+

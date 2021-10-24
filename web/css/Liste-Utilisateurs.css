@@ -1,0 +1,150 @@
+*
+{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+#liste-utilisateurs
+{
+    position: relative;
+    top: 100px;
+    left: 19%;
+    background:white;
+    padding:20px;
+    width:78%;
+}
+input
+{
+    width: 300px;
+    padding: 10px;
+    margin:5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+input[type="search"]
+{
+    width:350px;
+    margin:0px;
+}
+input[type="submit"]:hover
+{
+    cursor: pointer;
+}
+table
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+td
+{
+	text-align: center;
+	padding: 12px;
+}
+tr:nth-child(2n+1):not(:first-child)
+{
+	background-color:#C9DDF3;
+
+}
+tr:nth-child(2n)
+{
+	background-color:#F8FBFF;
+}
+th
+{
+	padding: 12px;
+	background-color: #E32020;
+	color: white;
+}
+table button
+{
+    border:none;
+    background: none;
+}
+button:hover
+{
+    cursor:pointer;
+}
+
+.form-popup 
+{
+    width:100%;
+    height:100%;
+    display: none;
+    position: fixed;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%,50%);
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+
+}
+.form-container
+{
+    width:25%;
+    padding: 20px;
+    margin: 100px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: white;
+}
+.form-popup h1
+{
+    margin:20px;
+    font-size: 25px;
+}
+
+.form-container button
+{
+    background: none;
+    text-decoration: underline;
+    border:none;
+    
+   
+}
+.form-container button:hover
+{
+    color: black;
+}
+#hiddeninput
+{
+    display: none;
+}
+#ajouterbtn
+{
+    color:white;
+    width: 190px;
+    padding: 10px;
+    border-radius: 5px;
+    background: rgb(0, 115, 230);
+    border: 1px solid black;
+    float:right;
+    margin: 20px 0px;
+
+}
+.formsearch
+{
+    float: left;
+    margin: 20px 0px;
+}
+.clear-fix
+{
+    width:100%;
+    clear:both;
+    content:"";
+    display: table;
+}
+.closeicon
+{
+    border-radius: 50px;
+    background: white;
+    position:relative;
+    bottom: 392px;
+    left:195px;
+}
+.searchbtn
+{
+    background:  url("../images/searchicon.png") no-repeat ;
+    background-size: contain;
+    width:40px;
+    border:none;
+}
